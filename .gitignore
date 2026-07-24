@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Face database (opcional)
+# Descomente se não desejar versionar o banco gerado
+assets/face_db.pkl
+
+# TensorFlow cache
+.keras/
+
+# Jupyter
+.ipynb_checkpoints/
