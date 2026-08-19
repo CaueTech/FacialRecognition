@@ -8,8 +8,8 @@ if sys.version_info < (3, 10):
     )
 
 folders = [
-    "assets/database",
-    "assets/post-processed"
+    "assets/database/input",
+    "assets/database/post-processed"
 ]
 
 for folder in folders:
