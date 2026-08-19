@@ -17,5 +17,5 @@ class EmbeddingGenerator:
             return embedding[0]["embedding"]
 
         except Exception as e:
-            print(f"Erro ao gerar embedding para '{img_path}': {e}")
+            print(f"Error generating embedding for '{img_path}': {e}")
             return None

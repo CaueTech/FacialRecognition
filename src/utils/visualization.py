@@ -8,7 +8,7 @@ def show_result(image_path, result):
     plt.imshow(image)
 
     plt.title(
-        f"Identificado como: {result['identity']}"
+        f"Identified as: {result['identity']}"
     )
 
     plt.axis("off")

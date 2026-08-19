@@ -14,14 +14,14 @@ class FaceDatabase:
         with open(db_file, "rb") as f:
             self.database = pickle.load(f)
 
-        print("Banco carregado.")
+        print("Database loaded.")
 
     def save(self, db_file):
 
         with open(db_file, "wb") as f:
             pickle.dump(self.database, f)
 
-        print("Banco salvo.")
+        print("Database saved.")
 
     def build(self, database_path):
 
@@ -29,7 +29,7 @@ class FaceDatabase:
 
         for person in os.listdir(database_path):
 
-            print(f"Pessoa: {person}")
+            print(f"Person: {person}")
 
             person_folder = os.path.join(database_path, person)
 
@@ -40,7 +40,7 @@ class FaceDatabase:
 
             for image in os.listdir(person_folder):
 
-                print(f"    Imagem: {image}")
+                print(f"    Image: {image}")
 
                 image_path = os.path.join(person_folder, image)
 

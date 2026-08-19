@@ -4,7 +4,7 @@ import sys
 
 if sys.version_info < (3, 10):
     raise RuntimeError(
-        "Python 3.10 ou superior é necessário."
+        "Python 3.10 or higher is required."
     )
 
 folders = [
@@ -21,4 +21,4 @@ if not os.path.exists(db_file):
     with open(db_file, "wb") as f:
         pickle.dump({}, f)
 
-print("Projeto preparado.")
+print("Project prepared.")
