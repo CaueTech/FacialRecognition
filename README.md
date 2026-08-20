@@ -111,7 +111,19 @@ The installation scripts automatically:
 
 ## Running
 
-After activating the virtual environment:
+Activate the virtual environment:
+
+### Linux / macOS
+```bash
+source .venv/bin/activate
+```
+
+### Windows
+```cmd
+.venv\Scripts\activate
+```
+
+Once activated, run the application:
 
 ```bash
 python src/main.py
